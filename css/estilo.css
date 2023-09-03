@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.inicioBody {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../imagenes/fondo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.encabezado {
+    position: relative;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 230px;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #adff2f;
+}
+
+.presentacion {
+    margin-left: 8%;
+    margin-top: 12%;
+}
+
+.presentacion h2 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #adff2f;
+}
+
+.presentacion p {
+    display: block;
+    width: 35%;
+}
+
+p {
+    color: #a5a3a3;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+main {
+    margin-bottom: 4%;
+}
+
+main a {
+    background-color: #adff2f;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 25px 0;
+    border: solid;
+    border-radius: 20px;
+
+}
+
+main a:hover {
+    background-color: black;
+    color: #adff2f;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 10px 18px;
+    border: solid;
+    border-color: #adff2f;
+    border-radius: 20px;
+}
+
+footer {
+
+    color: white;
+    text-align: center;
+}
+
+footer .end {
+    margin-bottom: 0;
+    bottom: 0;
+    font-size: 16px;
+}
+
+.redesSociales a {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    width: 20px;
+    color: black;
+}
+
+.redesSociales a:hover {
+    color: white;
+}
+
+.tituloCarousel h2 {
+    margin-left: 8%;
+    color: white;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.tituloCarousel h2 span {
+    color: #adff2f;
+    font-weight: bold;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item h2 {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.725);
+}
+
+.carousel-item p {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.fondo {
+    height: 100vh;
+    background-color: black;
+    background-image: url(../imagenes/fondo\ solo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.menuHamburguesa {
+    width: 100%;
+}
+
+.navbar-toggler {
+    background-color: #adff2f;
+    color: #adff2f;
+}
+
+.imagenesGenero h2 {
+    color: white;
+}
+
+.imagenesGenero img {
+    width: 80%;
+    border-radius: 100%;
+    filter: blur(0.6px);
+}
+
+.imagenesGenero img:hover {
+    border: solid rgba(255, 255, 0, 0.529) 4px;
+    filter: blur(0px);
+}
+
+.formulario {
+    color: white;
+}
+
+.contactos {
+    color: white;
+}
+
+.redes {
+    color: white;
+}
+
+input {
+    border-radius: 12px;
+}
+
+.comentarioCaja {
+    border-radius: 18px;
+}
+
+.enviar {
+    background-color: #adff2f;
+    padding: 6px 10px;
+    font-weight: bold;
+    color: black;
+    border: solid;
+    border-radius: 20px;
+}
+
+.enviar:hover {
+    background-color: black;
+    padding: 6px 10px;
+    color: #adff2f;
+    border: solid;
+    border-radius: 20px;
+}
+
+.linkEmail {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+}
+
+.linkEmail:hover {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: black;
+}
+
+.telefono {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+}
+
+.telefono:hover {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: black;
+}
+
+.redes {
+    color: white;
+    background-color: black;
+}
+
+.contactos {
+    margin-top: 8%;
+}
+
+.contactos h3 {
+    color: black;
+}
+
+.formulario {
+    margin-top: 2%;
+
+}
+
+.lyrics {
+    color: white;
+    font-size: 45px;
+}
+
+.shows {
+    margin: 2%;
+}
+
+.shows div {
+    margin-bottom: 2%;
+}
+
+.showsCompra {
+    border-radius: 50px;
+    padding-bottom: 1%;
+}
+
+.shows button {
+    background-color: greenyellow;
+    border: solid transparent 2px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.shows button:hover {
+    background-color: transparent;
+    border: solid greenyellow 2px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.shows h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+@media (max-width: 900px) {
+    .fondo {
+        height: 100vh;
+        background-color: black;
+        background-image: url(../imagenes/fondo\ solo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+
+    }
+}
