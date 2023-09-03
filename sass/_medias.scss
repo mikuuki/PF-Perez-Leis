@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+    .fondo {
+        height: 100vh;
+        background-color: $colorSecundario;
+        background-image: url(../imagenes/fondo\ solo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+
+    }
+    .shows h2 {
+        font-size: $tamSub;
+    }
+
+}

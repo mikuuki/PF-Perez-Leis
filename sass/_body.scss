@@ -1,0 +1,254 @@
+.inicioBody {
+    height: 100vh;
+    background-color: $colorSecundario;
+    background-image: url(../imagenes/fondo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: $colorSecundario;
+    overflow-x: hidden;
+}
+
+
+.presentacion {
+    margin-left: 8%;
+    margin-top: 12%;
+}
+
+.presentacion h2 {
+    color: $colorPrincipal;
+    font-size: $tamTitulo;
+    margin-bottom: $tamSub;
+}
+
+span {
+    color: $colorTerciario;
+}
+
+.presentacion p {
+    display: block;
+    width: 35%;
+}
+
+p {
+    color: #a5a3a3;
+    line-height: 26px;
+    font-size: $tamSub;
+}
+
+main {
+    margin-bottom: 4%;
+}
+
+main a {
+    background-color: $colorTerciario;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: $colorSecundario;
+    display: inline-block;
+    margin: 25px 0;
+    border: solid;
+    border-radius: $tamSub;
+
+}
+
+main a:hover {
+    background-color: $colorSecundario;
+    color: $colorTerciario;
+    display: inline-block;
+    margin: 25px 0;
+    padding: 10px 18px;
+    border: solid;
+    border-color: $colorTerciario;
+    border-radius: $tamSub;
+}
+
+
+.tituloCarousel h2 {
+    margin-left: 8%;
+    color: $colorPrincipal;
+    font-size: $tamTitulo;
+    font-weight: lighter;
+}
+
+.tituloCarousel h2 span {
+    color: $colorTerciario;
+    font-weight: bold;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item h2 {
+    margin-top: $tamSub;
+    color: rgba(0, 0, 0, 0.725);
+}
+
+.carousel-item p {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.fondo {
+    height: 100vh;
+    background-color: $colorSecundario;
+    background-image: url(../imagenes/fondo\ solo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+
+.imagenesGenero h2 {
+    color: $colorPrincipal;
+}
+
+.imagenesGenero img {
+    width: 80%;
+    border-radius: 100%;
+    filter: blur(0.6px);
+}
+
+.imagenesGenero img:hover {
+    border: solid rgba(255, 255, 0, 0.529) 4px;
+    filter: blur(0px);
+}
+
+.formulario {
+    color: $colorPrincipal;
+}
+
+.contactos {
+    color: $colorPrincipal;
+}
+
+.redes {
+    color: $colorPrincipal;
+}
+
+input {
+    border-radius: 12px;
+}
+
+.comentarioCaja {
+    border-radius: 18px;
+}
+
+.enviar {
+    background-color: $colorTerciario;
+    padding: 6px 10px;
+    font-weight: bold;
+    color: $colorSecundarioblack;
+    border: solid;
+    border-radius: $tamSub;
+}
+
+.enviar:hover {
+    background-color: $colorSecundario;
+    padding: 6px 10px;
+    color: $colorTerciario;
+    border: solid;
+    border-radius: $tamSub;
+}
+
+.linkEmail {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: $colorPrincipal;
+}
+
+.linkEmail:hover {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: $colorSecundario;
+}
+
+.telefono {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: $colorPrincipal;
+}
+
+.telefono:hover {
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    color: $colorSecundario;
+}
+
+.redes {
+    color: $colorPrincipal;
+    background-color: $colorSecundario;
+}
+
+.contactos {
+    margin-top: 8%;
+}
+
+.contactos h3 {
+    color: $colorSecundario;
+}
+
+.formulario {
+    margin-top: 2%;
+
+}
+
+.lyrics {
+    color: $colorPrincipal;
+    font-size: 50px;
+}
+
+.shows {
+    margin: 2%;
+}
+
+.shows div {
+    margin-bottom: 2%;
+}
+
+.showsCompra {
+    border-radius: $tamTitulo;
+    padding-bottom: 1%;
+}
+
+.shows button {
+    background-color: $colorTerciario;
+    border: solid transparent 2px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    color: $colorSecundario;
+    font-weight: bold;
+}
+
+.shows button:hover {
+    background-color: transparent;
+    border: solid $colorTerciario 2px;
+    border-radius: 10px;
+    padding: 6px 10px;
+    color: $colorSecundario;
+    font-weight: bold;
+}
+
+.shows h2 {
+    background-color: rgba(172, 255, 47, 0.314);
+    text-align: center;
+    color: $colorPrincipal;
+    font-size: $tamTitulo;
+    font-weight: lighter;
+    padding: 1%;
+    border-radius: 32px;
+
+}
+
+

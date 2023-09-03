@@ -1,0 +1,22 @@
+footer {
+    color: $colorPrincipal;
+    text-align: center;
+}
+
+footer .end {
+    margin-bottom: 0;
+    bottom: 0;
+    font-size: 16px;
+}
+
+.redesSociales a {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    width: $tamSub;
+    color: $colorSecundario;
+}
+
+.redesSociales a:hover {
+    color: $colorPrincipal;
+}
